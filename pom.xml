@@ -4,7 +4,7 @@
     <packaging>pom</packaging>
     <scm>
         <developerConnection>scm:git:https://github.com/jmaruti/sfg-pet-clinic.git</developerConnection>
-      <tag>POJOs added</tag>
+      <tag>HEAD</tag>
   </scm>
     <modules>
         <module>pet-clinic-data</module>
@@ -18,7 +18,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic</description>
 
