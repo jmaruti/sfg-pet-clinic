@@ -1,8 +1,6 @@
 package guru.springframework.sfgpetclinic.services.map;
 
-import guru.springframework.sfgpetclinic.model.Owner;
 import guru.springframework.sfgpetclinic.model.Vet;
-import guru.springframework.sfgpetclinic.services.CrudService;
 import guru.springframework.sfgpetclinic.services.VetService;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +25,7 @@ implements VetService {
 
     @Override
     public Vet save( Vet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
